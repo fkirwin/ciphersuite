@@ -1,6 +1,6 @@
-
-
+import menu
+import sys
 
 if __name__ == '__main__':
-    while True:
-        Menu.run()
+    m = menu.Menu()
+    m.run()
